@@ -1,0 +1,8 @@
+type Query{
+    getCarById(id: Long) : CarDTO
+    getCarByModel(model: String): CarDTO
+    getCarByColor(color: String): CarDTO
+    getCarByMatricul(matricul: String): CarDTO
+     getCarByPrice(price: String): CarDTO
+    getAllCars: [CarDTO]
+}
